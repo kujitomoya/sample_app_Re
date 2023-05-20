@@ -4,5 +4,5 @@ class List < ApplicationRecord
   
   validates :title, presence: true
   validates :body, presence: true
-  validates :image, presence: trueend
+  #validates :image, presence: trueend
 end
